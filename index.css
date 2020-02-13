@@ -1,0 +1,90 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	color: #fff;
+	margin: 0;
+	background: linear-gradient(-45deg, #a0a0a0, #214a8c, #a0a0a0, #214a8c);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	-o-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+	/* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+		NWU 	: background: linear-gradient(-45deg, #7e28ff, #a0a0a0, #7e28ff, #a0a0a0);
+		Maties  : background: linear-gradient(-45deg, #F6D20A, #8A1535, #8A1535, #F6D20A);
+		UJ		: background: linear-gradient(-45deg, #ffffff, #F3784C, #F3784C, #ffffff);
+		WITS 	: background: linear-gradient(-45deg, #F0CA33, #192358, #192358, #F0CA33);
+		Shimlas	: background: linear-gradient(-45deg, #2E53A3, #AF202D, #AF202D, #2E53A3);
+		Tuks	: background: linear-gradient(-45deg, #ffffff, #ff3030, #ffffff, #ff3030);
+		CUT		: background: linear-gradient(-45deg, #A9CDED, #004D77, #A9CDED, #004D77);
+		Madibaz	: background: linear-gradient(-45deg, #FDCB55, #FDCB55, #010825, #010825);
+	*/
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container .jumbotron h1 {
+	font-size: 5vw;
+	text-align: center;
+}
+
+.val_error {
+	color: #FF1F1F;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    height: 375px;
+    width: 100%;
+    background-color: #8992a3;
+    text-align: center;
+    color: black;
+}
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
+}
